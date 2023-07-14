@@ -1,0 +1,24 @@
+body {
+  position: relative;
+
+  font-family: Open Sans Semi-Bold, sans-serif;
+  margin: 0;
+
+  height: 100vh;
+  width: 100vw;
+
+  display: grid;
+  grid-template-rows: 3rem 1fr;
+
+  background-image: linear-gradient(
+    var(--baseColorDark),
+    var(--baseColorLight) 15%,
+    var(--baseColorLight) 85%,
+    var(--baseColorDark)
+  );
+  color: var(--baseFontColor);
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
